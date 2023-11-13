@@ -65,7 +65,10 @@ flexible messaging model and an intuitive client API.</description>
     <connection>scm:git:https://github.com/apache/pulsar.git</connection>
     <developerConnection>scm:git:ssh://git@github.com:apache/pulsar.git</developerConnection>
   </scm>
-
+  <properties>
+  <sonar.organization>stefanatodavide</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
   <ciManagement>
     <system>GitHub Actions</system>
     <url>https://github.com/apache/pulsar/actions</url>
